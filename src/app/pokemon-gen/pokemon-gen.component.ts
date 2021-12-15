@@ -19,7 +19,7 @@ export class PokemonGenComponent implements OnInit {
   constructor() { }
 
   async ngOnInit() {
-    this.model = await tf.loadLayersModel('https://pedrotlemos.github.io/assets/models/model.json');
+    this.model = await tf.loadLayersModel('https://pedrotlemos.github.io/PokemonGenerator/assets/models/model.json);
   }
 
   async generateBatch() {
