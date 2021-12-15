@@ -1,0 +1,17 @@
+.header{
+  margin: 2rem 14rem 1rem;
+  background-color: rgba(255,255,255,0.9);
+  padding: 0.5rem 0;
+  border-radius: 15px;
+  &__welcome{
+    text-align: center;
+  }
+  &__command{
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+app-pokemon-gen{
+  display: block;
+}

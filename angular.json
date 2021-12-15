@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pkm-project"
+    }
+  },
+  "defaultProject": "pkm-project",
+  "cli": {
+    "analytics": "a4fd41c2-37d2-4240-9c44-08c1fa535c38"
+  }
 }

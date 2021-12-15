@@ -1,0 +1,3 @@
+<input class="quantidade" type="text" #input (change)="checagemValidade(input.value)" placeholder="Quantos?">
+<button (click)="generateBatch(); mostrarConteudo()" [disabled]="!valido" class="botao btn btn-dark">Generate</button>
+<div id="imagens" class="imagens"  [ngClass]="{'imagens-conteudo' : !vazio}"></div>
